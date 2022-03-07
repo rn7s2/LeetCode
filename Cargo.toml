@@ -1,0 +1,9 @@
+[package]
+name = "leetcode_rust"
+version = "0.1.0"
+authors = ["rn7s2"]
+edition = "2021"
+repository = "https://github.com/rn7s2/LeetCode_Rust"
+license-file = "LICENSE"
+
+[dependencies]
