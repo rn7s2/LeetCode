@@ -1,8 +1,17 @@
-mod leetcode_162;
+mod leetcode_2055;
 
 fn main() {
     println!(
-        "{}",
-        leetcode_162::Solution::find_peak_element(vec![1, 2, 1, 3, 5, 6, 4])
+        "{:?}",
+        leetcode_2055::Solution::plates_between_candles(
+            String::from("***|**|*****|**||**|*"),
+            vec![
+                vec![1, 17],
+                vec![4, 5],
+                vec![14, 17],
+                vec![5, 11],
+                vec![15, 16]
+            ]
+        )
     );
 }
