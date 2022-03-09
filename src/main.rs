@@ -1,17 +1,8 @@
-mod leetcode_2055;
+mod leetcode_15;
 
 fn main() {
     println!(
         "{:?}",
-        leetcode_2055::Solution::plates_between_candles(
-            String::from("***|**|*****|**||**|*"),
-            vec![
-                vec![1, 17],
-                vec![4, 5],
-                vec![14, 17],
-                vec![5, 11],
-                vec![15, 16]
-            ]
-        )
+        leetcode_15::Solution::three_sum(vec![-1, 0, 1, 2, -1, -4])
     );
 }
