@@ -1,8 +1,11 @@
-mod leetcode_15;
+mod leetcode_844;
 
 fn main() {
     println!(
         "{:?}",
-        leetcode_15::Solution::three_sum(vec![-1, 0, 1, 2, -1, -4])
+        leetcode_844::Solution::backspace_compare(
+            String::from("bxj##tw"),
+            String::from("bxo#j##tw")
+        )
     );
 }
