@@ -1,8 +1,5 @@
-mod p209;
+mod p78;
 
 fn main() {
-    println!(
-        "{:?}",
-        p209::Solution::min_sub_array_len(11, vec![1, 2, 3, 4, 5])
-    )
+    println!("{:?}", p78::Solution::subsets(vec![1, 2, 3]));
 }
