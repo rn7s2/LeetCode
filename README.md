@@ -1,1 +1,1 @@
-# LeetCode in Rust
+# LeetCode solutions
